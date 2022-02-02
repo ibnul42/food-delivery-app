@@ -17,6 +17,9 @@
 
 .item:nth-child(2){
     flex: 3;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .item:last-child{
