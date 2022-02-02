@@ -7,14 +7,15 @@ const Featured = () => {
     const images = [
         '/img/pizza.png',
         '/img/bike.png',
+        '/img/cart.png',
     ];
 
     const handleArrow = (direction) => {
         if (direction === 'left') {
-            setIndex(index != 0 ? index - 1 : 1)
+            setIndex(index != 0 ? index - 1 : 2)
         }
         if (direction === 'right') {
-            setIndex(index != 1 ? index + 1 : 0)
+            setIndex(index != 2 ? index + 1 : 0)
         }
     }
     return (
