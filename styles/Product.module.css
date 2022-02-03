@@ -1,0 +1,102 @@
+.container {
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+.left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    flex: 1;
+    padding: 20px; 
+}
+
+.imgContainer{
+    position: relative;
+    width: 80%;
+    height: 80%;
+}
+
+.price{
+    color: crimson;
+    font-weight: 400;
+    font-size: 24px;
+    border-bottom: 1px solid crimson;
+}
+
+.sizes{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.size{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.size:hover{
+    transform: scale(1.1);
+}
+
+.size:nth-child(2){
+    width: 40px;
+    height: 40px;
+}
+
+.size:nth-child(3){
+    width: 50px;
+    height: 50px;
+}
+
+.number{
+    position: absolute;
+    top: -5px;
+    right: -30px;
+    background-color: teal;
+    padding: 0 5px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.ingredients{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-style: 14px;
+    font-weight: 500;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.quantity{
+    height: 30px;
+    width: 50px;
+}
+
+.button{
+    height: 30px;
+    margin-left: 10px;
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
