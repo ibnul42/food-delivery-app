@@ -94,9 +94,14 @@
 .button{
     height: 30px;
     margin-left: 10px;
-    background-color: crimson;
+    background-color: rgba(220, 20, 60, 0.8);
     color: #fff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    background-color: rgba(220, 20, 60, 0.99);
 }
