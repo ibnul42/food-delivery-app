@@ -8,7 +8,7 @@ const Cart = () => {
         <div className={styles.container}>
             <div className={styles.left}>
                 <table className={styles.table}>
-                    <tr className={styles.tr}>
+                    <tr className={styles.trTitle}>
                         <th>Product</th>
                         <th>Name</th>
                         <th>Extras</th>
@@ -16,7 +16,7 @@ const Cart = () => {
                         <th>Quantity</th>
                         <th>Total</th>
                     </tr>
-                    <tr>
+                    <tr className={styles.tr}>
                         <td>
                             <div className={styles.imgContainer}>
                                 <Image src='/img/pizza.png' layout='fill' objectFit='cover' alt='' />
@@ -29,7 +29,7 @@ const Cart = () => {
                             <span className={styles.extras}>Double, Spicy</span>
                         </td>
                         <td>
-                            <span className={styles.extras}>19.99$</span>
+                            <span className={styles.price}>19.99$</span>
                         </td>
                         <td>
                             <span className={styles.quantity}>2</span>
@@ -38,7 +38,7 @@ const Cart = () => {
                             <span className={styles.total}>39.80</span>
                         </td>
                     </tr>
-                    <tr>
+                    <tr className={styles.tr}>
                         <td>
                             <div className={styles.imgContainer}>
                                 <Image src='/img/pizza.png' layout='fill' objectFit='cover' alt='' />
@@ -51,7 +51,7 @@ const Cart = () => {
                             <span className={styles.extras}>Double, Spicy</span>
                         </td>
                         <td>
-                            <span className={styles.extras}>19.99$</span>
+                            <span className={styles.price}>19.99$</span>
                         </td>
                         <td>
                             <span className={styles.quantity}>2</span>
